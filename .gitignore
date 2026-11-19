@@ -1,15 +1,29 @@
 # Python virtual environment
 .venv/
 
-# Python bytecode caches
+# Python bytecode and tool caches
 __pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging output
+*.egg-info/
+dist/
+build/
+
+# Node 
+node_modules/
 
 # Local secrets (never commit)
 .env
+.env.*
+!.env.example
 
 # Generated data artifacts
 data/chunks.jsonl
-data/embeddings*
+data/embedding*
 
 # macOS metadata
 .DS_Store
