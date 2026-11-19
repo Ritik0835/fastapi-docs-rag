@@ -55,3 +55,10 @@
 - Alternatives rejected: Serverless platforms such as Vercel (less suitable for a long-running Python service), and a manually managed VM (more ops work).
 - Reason: Render can build and run a Docker image directly, which keeps deployment reproducible and matches the Docker image planned for Phase 8.
 - Date: 2026-11-19
+
+## 9. BGE query prefix confirmed for Phase 1
+
+- Decision: Prefix dense queries with `Represent this sentence for searching relevant passages: ` and do not prefix passages. Checked the model card again at `https://huggingface.co/BAAI/bge-small-en-v1.5/raw/main/README.md` on 2026-11-19.
+- Alternatives rejected: No prefix at all. The card says v1.5 improves retrieval without an instruction and that skipping it causes only a slight degradation, but it still recommends the instruction for short-query-to-long-document retrieval, which is our case.
+- Reason: Follow the model card's explicit retrieval instruction; document chunks stay unprefixed as required. The prefix is kept in one named constant so it can be changed in an ablation.
+- Date: 2026-11-19
