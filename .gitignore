@@ -28,7 +28,12 @@ data/raw/**/*.css
 
 # Generated data artifacts
 data/chunks.jsonl
+<<<<<<< HEAD
 data/embedding*
+=======
+data/embeddings*
+data/embedding_ids.json
+>>>>>>> d013b3e (Phase 1: retrieval)
 
 # macOS metadata
 .DS_Store
