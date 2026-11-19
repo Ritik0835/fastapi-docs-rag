@@ -1,0 +1,15 @@
+# Python virtual environment
+.venv/
+
+# Python bytecode caches
+__pycache__/
+
+# Local secrets (never commit)
+.env
+
+# Generated data artifacts
+data/chunks.jsonl
+data/embeddings*
+
+# macOS metadata
+.DS_Store
