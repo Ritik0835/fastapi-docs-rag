@@ -1,0 +1,99 @@
+Query: how do I declare an optional query parameter
+  BM25 top 3:
+    1. Query Parameter Models > Optional Query Parameter Models
+    2. Cookie Parameter Models > Optional Cookie Parameter Models
+    3. Body - Multiple Parameters > Mix `Path`, `Query` and body parameters
+  Dense top 3:
+    1. Query Parameters > Optional parameters
+    2. Query Parameters > Required query parameters
+    3. Query Parameter Models > Optional Query Parameter Models
+
+Query: path parameters with type validation
+  BM25 top 3:
+    1. Path Parameters > Data validation
+    2. Body - Fields
+    3. Path Parameters > Pydantic
+  Dense top 3:
+    1. Path Parameters and Numeric Validations > Recap
+    2. Path Parameters and Numeric Validations
+    3. Path Parameters > Data validation
+
+Query: response_model
+  BM25 top 3:
+    1. Response Model - Return Type > `response_model` Parameter > `response_model` Priority
+    2. Using Dataclasses > Dataclasses in `response_model`
+    3. Release Notes > 0.80.0 (2022-08-23) > Breaking Changes - Fixes
+  Dense top 3:
+    1. Response Model - Return Type > Recap
+    2. Response Model - Return Type > `response_model` Parameter > `response_model` Priority
+    3. Response Model - Return Type > `response_model` Parameter
+
+Query: dependency injection with Depends
+  BM25 top 3:
+    1. Dependencies > Simple usage
+    2. Dependencies > **FastAPI** compatibility
+    3. Get Current User > Other models
+  Dense top 3:
+    1. Dependencies - `Depends()` and `Security()` > `Depends()`
+    2. Dependencies > First Steps > Declare the dependency, in the "dependant"
+    3. Dependencies - `Depends()` and `Security()` > `Security()`
+
+Query: background tasks after response
+  BM25 top 3:
+    1. Background Tasks
+    2. Background Tasks - `BackgroundTasks`
+    3. Middleware
+  Dense top 3:
+    1. Background Tasks
+    2. Background Tasks - `BackgroundTasks`
+    3. Background Tasks > Technical Details
+
+Query: how to upload a file
+  BM25 top 3:
+    1. Request Body Limits > What counts toward the limit?
+    2. Request Files > Optional File Upload
+    3. Request Files > Multiple File Uploads
+  Dense top 3:
+    1. Request Files > File Parameters with `UploadFile` > `UploadFile`
+    2. `UploadFile` class
+    3. Request Files > Recap
+
+Query: CORS middleware
+  BM25 top 3:
+    1. Advanced Middleware
+    2. CORS (Cross-Origin Resource Sharing) > More info
+    3. Middleware > Create a middleware
+  Dense top 3:
+    1. Middleware > Other middlewares
+    2. Advanced Middleware
+    3. CORS (Cross-Origin Resource Sharing) > More info
+
+Query: JWT authentication OAuth2
+  BM25 top 3:
+    1. Features > FastAPI features > Security and authentication
+    2. OAuth2 scopes > Global view
+    3. Release Notes > 0.13.0 (2019-04-09)
+  Dense top 3:
+    1. OAuth2 with Password (and hashing), Bearer with JWT tokens > Check it
+    2. OAuth2 with Password (and hashing), Bearer with JWT tokens > About JWT
+    3. OAuth2 with Password (and hashing), Bearer with JWT tokens
+
+Query: Pydantic model request body
+  BM25 top 3:
+    1. Path Operation Advanced Configuration > OpenAPI Extra > Custom OpenAPI content type
+    2. Body - Updates > Partial updates with `PATCH` > Using Pydantic's `exclude_unset` parameter
+    3. Request Body > Without Pydantic
+  Dense top 3:
+    1. Request Body > Import Pydantic's `BaseModel`
+    2. Request Body > Without Pydantic
+    3. Release Notes > 0.115.0 (2024-09-17) > Features
+
+Query: startup and shutdown events
+  BM25 top 3:
+    1. Lifespan Events > Alternative Events (deprecated)
+    2. Testing Events: lifespan and startup - shutdown
+    3. Release Notes > 0.93.0 (2023-03-07) > Features
+  Dense top 3:
+    1. Lifespan Events > Alternative Events (deprecated) > `startup` and `shutdown` together
+    2. Lifespan Events > Technical Details
+    3. Lifespan Events > Alternative Events (deprecated)
